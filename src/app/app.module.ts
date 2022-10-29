@@ -8,12 +8,14 @@ import { ApodComponent } from './apod/apod.component';
 
 import { LandingComponent } from './landing/landing.component';
 import { NasaService } from './services/nasa.service';
+import { AgentComponent } from './agent/agent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingComponent,
-    ApodComponent
+    ApodComponent,
+    AgentComponent
   ],
   imports: [
     BrowserModule,

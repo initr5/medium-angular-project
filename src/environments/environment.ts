@@ -3,7 +3,10 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  nasaUrl: 'https://api.nasa.gov',
+  nasaKey: 'cHhqIUKCcTmp7PUsFfvCvfPmggz4Ybg2xWy2qhE6',
+  agentUrl: "https://mqjl9s6vf4.execute-api.eu-west-1.amazonaws.com/prod/v1/hackday/public/event"
 };
 
 /*
